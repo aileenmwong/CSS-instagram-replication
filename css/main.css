@@ -13,9 +13,9 @@ body {
   border: none;
   padding: 5px;
   display: inline-block;
-  margin-left: 9em;
+  margin-left: 7em;
   vertical-align: top;
-  margin-top: 4em;
+  margin-top: 2em;
 
   background: #7390a9;
   background-image: -webkit-linear-gradient(top, #7390a9, #355e82);
@@ -52,3 +52,143 @@ body {
   padding: 5px .5em;
   vertical-align: top;
 }
+
+.Apple {
+  border: none;
+  padding: 2px;
+  display: inline-block;
+  margin-left: 2em;
+  vertical-align: top;
+  margin-top: 0em;
+
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  /*-webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;*/
+  font-family: Arial;
+  color: #ffffff;
+ /* padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+}
+
+.Apple::before {
+  content: url("../images/badge-iphone.png");
+  display: inline-block;
+}
+
+.Google {
+  border: none;
+  padding: 2px;
+  display: inline-block;
+  margin-left: 2em;
+  vertical-align: top;
+  margin-top: 0em;
+
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+ /* -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;*/
+  font-family: Arial;
+  color: #ffffff;
+ /* padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+}
+
+.Google::before {
+  content: url("../images/badge-android.png");
+  display: inline-block;
+}
+
+header {
+  background: linear-gradient(#1c5380, #06365f);
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  color: #888888;
+  margin: 300px;
+}
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#title {
+  color: #06365f;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 4px;
+}
+
+#wrapper {
+  height: auto;
+  width: 425px;
+  display: block;
+  padding: 30px 30px 0px 30px;
+  margin: 5px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+}
+
+#phones {
+  display: inline-block;
+  margin: 20px;
+  vertical-align:top;
+}
+
+#allContentWrapper {
+  text-align: center;
+  margin: -225px;
+  padding: 10px;
+}
+
+#rightContent {
+  display: inline-block;
+  text-align: left;
+  vertical-align:top;
+  padding: 12px;
+}
+
+#downloads {
+  display: block;
+  text-align: left;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  }
